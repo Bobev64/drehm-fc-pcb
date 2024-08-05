@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Teensy 4.0")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/DEV-15583")(options "")(descr ""))
+  (lib (name "ICM_42670_P")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/ICM_42670_P")(options "")(descr ""))
+)
