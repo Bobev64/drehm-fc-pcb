@@ -1,4 +1,4 @@
-23642076827566258
+23645524260106541
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57812,6 +57812,13 @@ heatsink
 0
 0
 0
+ICM_42670_P
+XDCR_ICM-42670-P
+
+
+0
+14
+14
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -88864,6 +88871,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SAMTEC_TSW-113-08-T-T-RA
+SAMTEC_TSW-113-08-T-T-RA
+
+
+0
+39
+39
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -90521,8 +90535,8 @@ MODULE_DEV-15583
 
 
 0
-33
-33
+28
+28
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

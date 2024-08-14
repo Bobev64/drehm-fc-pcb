@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Teensy 4.0")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/DEV-15583")(options "")(descr ""))
   (lib (name "ICM_42670_P")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/ICM_42670_P")(options "")(descr ""))
+  (lib (name "SAMTEC_TSW-113-08-T-T-RA")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/TSW_113_08_T_T_RA/SAMTEC_TSW-113-08-T-T-RA.pretty")(options "")(descr ""))
 )

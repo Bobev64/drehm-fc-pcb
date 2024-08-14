@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Teensy 4.0:MODULE_DEV-15583"
 			(at -46.99 31.75 0)
 			(effects
 				(font

@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "DEV-15583"
-			(at -12.7 -27.94 0)
+			(at -12.7 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,8 +167,8 @@
 		)
 		(symbol "DEV-15583_0_0"
 			(rectangle
-				(start -12.7 -25.4)
-				(end 12.7 22.86)
+				(start -12.7 22.86)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -609,42 +609,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -20.32 180)
-				(length 5.08)
-				(name "PROGRAM"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "PGM"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 -17.78 0)
-				(length 5.08)
-				(name "VBAT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "VBAT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 17.78 20.32 180)
 				(length 5.08)
@@ -665,24 +629,6 @@
 			)
 		)
 		(symbol "DEV-15583_1_0"
-			(pin power_in line
-				(at -17.78 -20.32 0)
-				(length 5.08)
-				(name "3.3V"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3.3V_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 17.78 15.24 180)
 				(length 5.08)
@@ -720,24 +666,6 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 -22.86 0)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "G2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 17.78 17.78 180)
 				(length 5.08)
 				(name "GND"
@@ -751,24 +679,6 @@
 					(effects
 						(font
 							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 -17.78 180)
-				(length 5.08)
-				(name "ON/OFF"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "ON/OFF"
-					(effects
-						(font
-							(size 0.8 0.8)
 						)
 					)
 				)
