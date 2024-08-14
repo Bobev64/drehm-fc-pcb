@@ -639,7 +639,7 @@
 						)
 					)
 				)
-				(number "3.3V_2"
+				(number "3v3"
 					(effects
 						(font
 							(size 1.016 1.016)
