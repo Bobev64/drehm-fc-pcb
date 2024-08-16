@@ -1744,6 +1744,24 @@
 					)
 				)
 				(pin input line
+					(at 12.7 -10.16 180)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 12.7 -12.7 180)
 					(length 5.08)
 					(name "36"
@@ -1753,7 +1771,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "36"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -1771,25 +1789,7 @@
 							)
 						)
 					)
-					(number "30"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -10.16 180)
-					(length 5.08)
-					(name "33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "33"
+					(number "39"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3492,6 +3492,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 96.52) (xy 85.09 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a267783-31d3-428c-8d04-b5c2b132fa05")
+	)
+	(wire
+		(pts
 			(xy 85.09 63.5) (xy 77.47 63.5)
 		)
 		(stroke
@@ -3579,6 +3589,16 @@
 			(type default)
 		)
 		(uuid "4ef8117b-22f8-4835-abf1-75eaa0ba0688")
+	)
+	(wire
+		(pts
+			(xy 69.85 91.44) (xy 85.09 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5409aa8e-87e1-4458-82ac-c44ee8fe697f")
 	)
 	(wire
 		(pts
@@ -3732,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 85.09 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c45698b-b841-4a21-bf50-1c163ca5e760")
-	)
-	(wire
-		(pts
 			(xy 151.13 106.68) (xy 151.13 105.41)
 		)
 		(stroke
@@ -3782,13 +3792,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 93.98) (xy 85.09 93.98)
+			(xy 69.85 88.9) (xy 85.09 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9847d7f6-57a9-408f-8f25-be099a991634")
+		(uuid "941a9658-082c-449b-b1be-f35ffc692cc5")
 	)
 	(wire
 		(pts
@@ -3949,16 +3959,6 @@
 			(type default)
 		)
 		(uuid "be7c7e0b-a069-4b27-a7f7-710cc8fc3b9f")
-	)
-	(wire
-		(pts
-			(xy 69.85 88.9) (xy 85.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bec19947-3a57-4d47-b496-bef354c19f66")
 	)
 	(wire
 		(pts
@@ -4132,16 +4132,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 85.09 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb38632e-d0cf-4890-82c1-bfc05a819ee0")
-	)
-	(wire
-		(pts
 			(xy 69.85 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -4189,6 +4179,16 @@
 			(type default)
 		)
 		(uuid "f5176621-1d03-4284-8b22-1a5cb1c207f6")
+	)
+	(wire
+		(pts
+			(xy 69.85 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55be907-291d-4979-ba26-3c77348c4153")
 	)
 	(wire
 		(pts
@@ -4506,7 +4506,7 @@
 			(uuid "95480a7a-d72c-4221-b08c-8c9ab18eeb3e")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR010")
 					(unit 1)
@@ -4573,7 +4573,7 @@
 			(uuid "b1ec3175-3b6d-4d77-aca6-a9b6a3916e7e")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR06")
 					(unit 1)
@@ -4649,7 +4649,7 @@
 			(uuid "4f7868d9-c5df-4caf-89b8-60f6e969e21b")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "C1")
 					(unit 1)
@@ -4682,7 +4682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMTEC_TSW-113-08-T-T-RA:SAMTEC_TSW-113-08-T-T-RA"
+		(property "Footprint" "TSW-113-08-T-T-RA:SAMTEC_TSW-113-08-T-T-RA"
 			(at 57.15 60.96 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 		(pin "21"
 			(uuid "aa7d0d60-5719-40c3-9f25-aec46a586f7b")
 		)
-		(pin "30"
+		(pin "39"
 			(uuid "aab1db75-a2e4-472e-91e5-7f06b29977c2")
 		)
 		(pin "19"
@@ -4895,11 +4895,11 @@
 		(pin "-UB"
 			(uuid "49f84334-fa1c-4841-b031-1d34f19e6c12")
 		)
-		(pin "30"
+		(pin "36"
 			(uuid "ec87d3da-8f47-4b2c-84e2-d4aaecbb6701")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "J1")
 					(unit 1)
@@ -4986,7 +4986,7 @@
 			(uuid "1cec72c8-ba3e-44b2-96ca-f4d62108dca6")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "R1")
 					(unit 1)
@@ -5053,7 +5053,7 @@
 			(uuid "0087646b-797b-4e0b-8d87-f6f12bd63b9c")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR02")
 					(unit 1)
@@ -5187,7 +5187,7 @@
 			(uuid "aa41c567-67ea-45b5-b29f-fb77df797aea")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR07")
 					(unit 1)
@@ -5253,7 +5253,7 @@
 			(uuid "5d595325-154c-48cb-b4d3-52e113e2b335")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR09")
 					(unit 1)
@@ -5338,7 +5338,7 @@
 			(uuid "6f35e035-4b6c-496a-a071-84ec0b2081aa")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "C2")
 					(unit 1)
@@ -5405,7 +5405,7 @@
 			(uuid "fed75d00-c3c8-4baa-93a2-965dd7256074")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR01")
 					(unit 1)
@@ -5471,7 +5471,7 @@
 			(uuid "e5bc5270-c54c-495c-8298-abe949b913e5")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR012")
 					(unit 1)
@@ -5558,7 +5558,7 @@
 			(uuid "288efde7-4057-4609-bb5c-9cd1261fd6aa")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "R2")
 					(unit 1)
@@ -5625,7 +5625,7 @@
 			(uuid "1255ba93-7460-4eca-8a96-10e8903da926")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR04")
 					(unit 1)
@@ -5692,7 +5692,7 @@
 			(uuid "3d6d137f-24ff-4bab-a9c3-3fbe888b5af1")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR03")
 					(unit 1)
@@ -5757,7 +5757,7 @@
 			(uuid "32937e9f-c5dc-4e25-adf5-0e14ea8e45b6")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR05")
 					(unit 1)
@@ -5842,7 +5842,7 @@
 			(uuid "dc9073c6-3d54-48c5-8adb-1f09586df940")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "C3")
 					(unit 1)
@@ -5909,7 +5909,7 @@
 			(uuid "aabbe7d8-0837-41d5-87eb-c75eea12a54c")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "H1")
 					(unit 1)
@@ -5976,7 +5976,7 @@
 			(uuid "8774dfbf-8216-4881-ac3d-dbbc447091dd")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR013")
 					(unit 1)
@@ -6129,7 +6129,7 @@
 			(uuid "2fe5f51c-a60e-4eed-bdf2-6e3692622d69")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "MT1")
 					(unit 1)
@@ -6194,7 +6194,7 @@
 			(uuid "56e45c71-51ad-45c2-98d8-b5d31b99de41")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR08")
 					(unit 1)
@@ -6526,7 +6526,7 @@
 			(uuid "80e6c931-c980-40d8-a292-41104a764b4b")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "U1")
 					(unit 1)
@@ -6590,7 +6590,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "FID1")
 					(unit 1)
@@ -6656,7 +6656,7 @@
 			(uuid "464e5264-eec9-4058-8967-0c21a837a75a")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR011")
 					(unit 1)
@@ -6804,7 +6804,7 @@
 			(uuid "e2e11e0f-331b-4fb2-805b-f725afc7ef6f")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "J4")
 					(unit 1)
@@ -6870,7 +6870,7 @@
 			(uuid "206ef057-24b4-40eb-9412-6006eed5b3a2")
 		)
 		(instances
-			(project ""
+			(project "drehm-fc"
 				(path "/78677983-3e2d-46c3-90bf-4f512dd2e99e"
 					(reference "#PWR014")
 					(unit 1)
