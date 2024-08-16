@@ -103,17 +103,6 @@
 		(layer "F.SilkS")
 		(uuid "5e9a8c6e-9c10-4e5b-96e7-530832afdb7d")
 	)
-	(fp_circle
-		(center -17.16 -2.77)
-		(end -17.06 -2.77)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "1b7ea138-c054-47ef-9026-a43b95b3a8cc")
-	)
 	(fp_line
 		(start -16.76 -8.785)
 		(end 16.76 -8.785)
@@ -585,5 +574,16 @@
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
 		(uuid "54f595af-4b8d-4389-b757-6767d7268954")
+	)
+	(model "${KIPRJMOD}/drehm-fc-lib/TSW_113_08_T_T_RA/TSW-113-08-T-T-RA.step"
+		(offset
+			(xyz 0 1.2 4.025)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 180)
+		)
 	)
 )
