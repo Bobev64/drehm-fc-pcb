@@ -4630,7 +4630,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" ""
+		(property "Manufacturer P/N" "GRM033R61C103KA12D "
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C161472"
 			(at 260.35 71.12 0)
 			(effects
 				(font
@@ -4659,7 +4677,7 @@
 		(at 57.15 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0fae04ab-876e-4e59-b83f-43886a1b8e9b")
@@ -4982,7 +5000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "ERJ-1GNF1002C"
+		(property "Manufacturer P/N" "ERA1AEB103C"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -4992,6 +5010,15 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
+			(at 146.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C490808"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -5485,6 +5512,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C161494"
+			(at 260.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ffcd56a-aac0-4f02-bb68-79063951ce48")
 		)
@@ -5687,7 +5723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "ERJ-1GNF1002C"
+		(property "Manufacturer P/N" "ERA1AEB103C"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -5697,6 +5733,15 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C490808"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -5922,6 +5967,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C76933"
+			(at 260.35 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4088ce30-cc9b-4246-9dff-d67ee1182d81")
 		)
@@ -6029,7 +6083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ICM-42670-P:XDCR_ICM-42670-P"
+		(property "Footprint" "ICM_42670_P:XDCR_ICM-42670-P"
 			(at 219.71 78.74 0)
 			(effects
 				(font
@@ -6098,6 +6152,15 @@
 			)
 		)
 		(property "Manufacturer P/N" ""
+			(at 219.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3288646"
 			(at 219.71 78.74 0)
 			(effects
 				(font
@@ -6294,7 +6357,7 @@
 		(at 102.87 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a7e4cb5a-a3ad-4a95-b1c4-c22bddb40cd0")
@@ -7019,7 +7082,7 @@
 		(at 158.75 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e8a54d75-2d80-4765-a02b-171a18e93117")
