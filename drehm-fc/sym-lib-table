@@ -3,4 +3,5 @@
   (lib (name "Teensy 4.0")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/DEV-15583/DEV-15583.kicad_sym")(options "")(descr ""))
   (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/ICM_42670_P/ICM-42670-P.kicad_sym")(options "")(descr ""))
   (lib (name "TSW_113_08_T_T_RA")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/TSW_113_08_T_T_RA/TSW_113_08_T_T_RA.kicad_sym")(options "")(descr ""))
+  (lib (name "jlc_mfr_hole")(type "KiCad")(uri "${KIPRJMOD}/drehm-fc-lib/jlc_mfr_hole.kicad_sym")(options "")(descr ""))
 )
